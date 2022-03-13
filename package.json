@@ -7,11 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
-    "pre-commit": "yarn lint --fix && git add -A .",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": "yarn pre-commit"
+    "src/**/*.{ts,tsx}": "yarn lint"
   },
   "dependencies": {
     "next": "12.1.0",
