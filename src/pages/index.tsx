@@ -1,6 +1,6 @@
 type props = {
   tipo: string
-  numero: number
+  versao: number
 }
 
 export default function Home({ tipo = 't' }: props) {
