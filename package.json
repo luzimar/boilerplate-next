@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint --max-warnings=0",
     "prepare": "husky install",
-    "pre-commit": "yarn lint --fix git add ."
+    "pre-commit": "yarn lint --fix"
   },
   "dependencies": {
     "next": "12.1.0",
