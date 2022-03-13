@@ -1,8 +1,14 @@
 type props = {
   tipo: string
-  versao: number
+  numero: number
 }
+const t = 's'
 
 export default function Home({ tipo = 't' }: props) {
-  return <div>{tipo}</div>
+  return (
+    <div>
+      {tipo}
+      {t}
+    </div>
+  )
 }

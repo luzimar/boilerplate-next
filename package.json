@@ -10,7 +10,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": "yarn lint"
+    "src/**/*.{ts,tsx}": ["yarn lint --fix", "git add ."]
   },
   "dependencies": {
     "next": "12.1.0",
