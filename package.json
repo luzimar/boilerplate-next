@@ -26,12 +26,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.5",
     "prettier": "2.5.1",
-    "typescript": "^4.6.2"
-  },
-  "lint-staged": {
-    "src/**/*": "yarn lint --fix"
+    "typescript": "^4.6.2",
+    "husky": "^7.0.0"
   }
 }
