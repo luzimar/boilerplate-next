@@ -11,7 +11,7 @@
     "pre-commit": "yarn lint --fix"
   },
   "lint-staged": {
-    "./src/**/*.{ts,tsx}": ["yarn lint --fix", "git add ."]
+    "./src/*.{ts,tsx}": ["yarn lint --fix", "git add ."]
   },
   "dependencies": {
     "next": "12.1.0",
