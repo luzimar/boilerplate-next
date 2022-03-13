@@ -6,12 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0",
+    "lint": "next lint src --max-warnings=0",
     "pre-commit": "yarn lint --cache --fix && git add -A .",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": ["yarn lint --cache --fix", "git add"]
+    "src/**/*.{ts,tsx}": ["yarn lint --cache --fix", "git add ."]
   },
   "dependencies": {
     "next": "12.1.0",
