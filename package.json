@@ -11,7 +11,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": ["yarn lint --cache --fix", "git add ."]
+    "src/**/*.{ts,tsx}": "yarn pre-commit"
   },
   "dependencies": {
     "next": "12.1.0",
